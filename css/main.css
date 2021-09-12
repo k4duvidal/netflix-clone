@@ -58,3 +58,19 @@ header nav a:hover{
 .container .descricao{
     margin-top: 10px;
 }
+.botoes{
+    margin-top: 10px;
+}
+.botao{
+    padding: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    transition: ease all .3s;
+}
+.botao:hover{
+    background: #fff;
+    color: black;
+}
