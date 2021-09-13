@@ -39,7 +39,7 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(../img/capa-house.jpg);
-    height: 400px;
+    height: 800px;
     background-size: cover;
    
 }
@@ -47,7 +47,8 @@ header nav a:hover{
     margin-left: 20px;
 }
 .filme-principal .container{
-    width: 70%;
+    width: 50%;
+    margin-top: 70px;
 }
 
 .container .titulo{
@@ -59,7 +60,7 @@ header nav a:hover{
     margin-top: 10px;
 }
 .botoes{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .botao{
     padding: 15px;
@@ -76,4 +77,10 @@ header nav a:hover{
 }
 .botao i{
     margin-right: 10px;
+}
+
+/*Efeito carrosel*/
+
+.carrosel{
+    margin-top: 20px;
 }
