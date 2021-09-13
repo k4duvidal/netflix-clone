@@ -16,17 +16,19 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .container .logo{
     color: var(--vermelho);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
     margin-left: 5px;
 }
 header nav a{
     color: #aaa;
     text-decoration: none;
     padding: 5px;
+    margin-right: 10px;
 }
 header nav a:hover{
     color: #fff;
@@ -39,9 +41,8 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(../img/capa-house.jpg);
-    height: 800px;
+    height: 700px;
     background-size: cover;
-   
 }
 .container{
     margin-left: 20px;
@@ -83,4 +84,9 @@ header nav a:hover{
 
 .carrosel{
     margin-top: 20px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
